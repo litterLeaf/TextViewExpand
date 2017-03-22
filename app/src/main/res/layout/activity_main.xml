@@ -1,18 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.riven.textviewexpand.MainActivity">
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="后面还有是因为懒，要你们自己发现" />
+
+
+            <com.riven.library.TextViewExpand
+                android:id="@+id/super_tv"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                stv:eLeftBottomTextColor2="@color/colorAccent"
+                stv:eLeftBottomTextString="招商银行（8888）"
+                stv:eLeftBottomTextString2="限额说明>>"
+                stv:eLeftIconRes="@mipmap/bank_zhao_shang"
+                stv:eLeftTopTextString="银行卡支付"
+                stv:eRightCheckBoxRes="@drawable/circular_check_bg"
+                stv:eRightCheckBoxShow="true" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                stv:eLeftBottomTextColor="@color/colorAccent"
+                stv:eLeftBottomTextString="限额说明>>"
+                stv:eLeftIconRes="@mipmap/ic_launcher"
+                stv:eLeftTopTextString="银行卡支付" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                stv:eLeftBottomTextString="188****8888"
+                stv:eLeftIconRes="@mipmap/head_default"
+                stv:eLeftTopTextString="张三" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eLeftIconRes="@mipmap/question"
+                stv:eLeftTextString="常见问题" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eLeftIconRes="@mipmap/my_bankcard"
+                stv:eLeftTextString="我的银行卡"
+                stv:eRightTextColor="@color/colorAccent"
+                stv:eRightTextString="已绑定" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eLeftTextString="设置中心"
+                stv:eRightIconRes="@mipmap/arrow_right_red" />
+
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eLeftTextSize="14dip"
+                stv:eLeftTextString="客服热线"
+                stv:eRightTextColor="#ff0000"
+                stv:eRightTextSize="12dp"
+                stv:eRightTextString="4006179999"
+                stv:eRightTextStringRightIconRes="@mipmap/arrow_right_red"
+                stv:eRightTextStringRightIconResPadding="8dip"
+                stv:eUseRipple="true" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eCenterTextString="88.88元"
+                stv:eLeftTextString="2016-10-18"
+                stv:eRightTextString="正常" />
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eLeftTextString="年化率"
+                stv:eRightTextColor="@color/colorAccent"
+                stv:eRightTextString="13.8%" />
+
+            <com.riven.library.TextViewExpand
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                stv:eLeftIconHeight="25dp"
+                stv:eLeftIconRes="@mipmap/ic_hint_music"
+                stv:eLeftIconWidth="25dp"
+                stv:eLeftTextString="图片大小"
+                stv:eRightTextString="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
