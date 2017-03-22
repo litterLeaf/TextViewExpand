@@ -29,8 +29,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 stv:eLeftBottomTextColor2="@color/colorAccent"
-                stv:eLeftBottomTextString="招商银行（8888）"
-                stv:eLeftBottomTextString2="限额说明>>"
+                stv:eLeftBottomTextString="任意银行（1234）"
+                stv:eLeftBottomTextString2="是可点击的>>"
                 stv:eLeftIconRes="@mipmap/bank_zhao_shang"
                 stv:eLeftTopTextString="银行卡支付"
                 stv:eRightCheckBoxRes="@drawable/circular_check_bg"
@@ -47,9 +47,9 @@
             <com.riven.library.TextViewExpand
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                stv:eLeftBottomTextString="188****8888"
+                stv:eLeftBottomTextString="187****0000"
                 stv:eLeftIconRes="@mipmap/head_default"
-                stv:eLeftTopTextString="张三" />
+                stv:eLeftTopTextString="阿甘" />
 
             <com.riven.library.TextViewExpand
                 android:layout_width="match_parent"
@@ -68,7 +68,7 @@
             <com.riven.library.TextViewExpand
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                stv:eLeftTextString="设置中心"
+                stv:eLeftTextString="个人中心"
                 stv:eRightIconRes="@mipmap/arrow_right_red" />
 
 
