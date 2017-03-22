@@ -1,6 +1,9 @@
 # TextViewExpand
 能减少布局的嵌套只要一个控件
 
+![image](https://github.com/litterLeaf/TextViewExpand/blob/master/show/result.jpg) 
+
+
 ## 引用方法（gradle）
 Add it in your root build.gradle at the end of repositories:
 
