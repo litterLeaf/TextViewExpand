@@ -18,3 +18,4 @@ Add the dependency
 	        compile 'com.github.litterLeaf:TextViewExpand:1.0.0'
 	  }
    
+   ## 欢迎大家使用，有什么问题可以联系我 邮箱 598678782@qq.com
