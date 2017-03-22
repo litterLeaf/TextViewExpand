@@ -1,8 +1,8 @@
 # TextViewExpand
 能减少布局的嵌套只要一个控件
 
-##引用方法（g）
-- Add it in your root build.gradle at the end of repositories:
+## 引用方法（gradle）
+Add it in your root build.gradle at the end of repositories:
 
 
     allprojects {
@@ -12,7 +12,7 @@
 		  }
 	  }
     
-- Add the dependency
+Add the dependency
   
     dependencies {
 	        compile 'com.github.litterLeaf:TextViewExpand:1.0.0'
