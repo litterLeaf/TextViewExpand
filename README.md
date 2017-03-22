@@ -7,12 +7,12 @@
 
 未用新的自定义控件前：
 
-	<RelativeLayout xmlns:android="http://schemas.android.com/	apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:orientation="vertical">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:app="http://schemas.android.com/apk/res-auto"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+    	android:layout_height="60dp"
+    	android:orientation="vertical">
 	
 		<TextView
             android:id="@+id/textView"
@@ -23,7 +23,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:layout_alignParentLeft="true"
-            android:text="文字1" />1
+            android:text="文字1" />
 
 		<TextView
             android:id="@+id/delete"
@@ -34,19 +34,18 @@
             android:layout_marginRight="15dp"
             android:text="文字2" />
 
-	</RelativeLayout>
+     </RelativeLayout>
 
 现在：
 	
 	<com.riven.library.TextViewExpand
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        app:eLeftTextString="红小宝"
-        app:eRightTextString="红小宝"
+        app:eLeftTextString="文字1"
+        app:eRightTextString="文字2"
         />
 	
-所以赶紧用吧
-
+你还在为布局嵌套太多头疼么，调用此控件就可以轻松拜托此现象，所以赶紧起来吧！
 ## 引用方法（gradle）
 Add it in your root build.gradle at the end of repositories:
 
