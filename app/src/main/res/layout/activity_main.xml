@@ -87,15 +87,15 @@
             <com.riven.library.TextViewExpand
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                stv:eCenterTextString="88.88元"
-                stv:eLeftTextString="2016-10-18"
-                stv:eRightTextString="正常" />
+                stv:eCenterTextString="文字左"
+                stv:eLeftTextString="文字中"
+                stv:eRightTextString="文字右" />
             <com.riven.library.TextViewExpand
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                stv:eLeftTextString="年化率"
+                stv:eLeftTextString="文字1"
                 stv:eRightTextColor="@color/colorAccent"
-                stv:eRightTextString="13.8%" />
+                stv:eRightTextString="文字2" />
 
             <com.riven.library.TextViewExpand
                 android:layout_width="match_parent"
