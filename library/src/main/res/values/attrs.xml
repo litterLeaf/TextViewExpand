@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseTextView">
+        <attr name="eDrawableLeft" format="reference" />
+        <attr name="eDrawableTop" format="reference" />
+        <attr name="eDrawableRight" format="reference" />
+        <attr name="eDrawableBottom" format="reference" />
+
+        <attr name="eTextString" format="string" />
+        <attr name="eTextSize" format="dimension" />
+        <attr name="eTextColor" format="color" />
+
+        <attr name="eDrawablePadding" format="dimension" />
+
+        <attr name="ePadding" format="dimension" />
+        <attr name="ePaddingLeft" format="dimension" />
+        <attr name="ePaddingTop" format="dimension" />
+        <attr name="ePaddingBottom" format="dimension" />
+        <attr name="ePaddingRight" format="dimension" />
+
+
+    </declare-styleable>
+
+    <declare-styleable name="TextViewExpand">
+        <attr name="eLeftIconRes" format="reference" />
+        <attr name="eRightIconRes" format="reference" />
+
+        <attr name="eLeftIconWidth" format="dimension" />
+        <attr name="eLeftIconHeight" format="dimension" />
+
+        <attr name="eRightIconWidth" format="dimension" />
+        <attr name="eRightIconHeight" format="dimension" />
+
+        <attr name="eRightCheckBoxRes" format="reference" />
+
+        <attr name="eLeftTextString" format="string" />
+        <attr name="eCenterTextString" format="string" />
+        <attr name="eRightTextString" format="string" />
+
+        <attr name="eLeftTopTextString" format="string" />
+        <attr name="eLeftBottomTextString" format="string" />
+        <attr name="eLeftBottomTextString2" format="string" />
+
+
+        <attr name="eTopLineMargin" format="dimension" />
+        <attr name="eBottomLineMargin" format="dimension" />
+        <attr name="eBothLineMargin" format="dimension" />
+
+        <attr name="eCenterSpaceHeight" format="dimension" />
+
+        <attr name="eLeftIconMarginLeft" format="dimension" />
+        <attr name="eLeftTextMarginLeft" format="dimension" />
+
+        <attr name="eLeftTopTextMarginLeft" format="dimension" />
+        <attr name="eLeftBottomTextMarginLeft" format="dimension" />
+        <attr name="eLeftBottomTextMarginLeft2" format="dimension" />
+
+        <attr name="eRightTextStringRightIconRes" format="reference" />
+        <attr name="eRightTextStringRightIconResPadding" format="dimension" />
+
+        <attr name="eRightIconMarginRight" format="dimension" />
+        <attr name="eRightTextMarginRight" format="dimension" />
+        <attr name="eRightCheckBoxMarginRight" format="dimension" />
+        <attr name="eRightCheckBoxShow" format="boolean" />
+        <attr name="eIsChecked" format="boolean" />
+        <attr name="eUseRipple" format="boolean" />
+
+        <attr name="eLeftTextSize" format="dimension" />
+        <attr name="eLeftTopTextSize" format="dimension" />
+        <attr name="eLeftBottomTextSize" format="dimension" />
+        <attr name="eLeftBottomTextSize2" format="dimension" />
+        <attr name="eRightTextSize" format="dimension" />
+        <attr name="eCenterTextSize" format="dimension" />
+
+
+        <attr name="eBackgroundColor" format="color" />
+        <attr name="eLeftTextColor" format="color" />
+        <attr name="eLeftTopTextColor" format="color" />
+        <attr name="eLeftBottomTextColor" format="color" />
+        <attr name="eLeftBottomTextColor2" format="color" />
+        <attr name="eRightTextColor" format="color" />
+        <attr name="eCenterTextColor" format="color" />
+
+        <attr name="eIsSingLines" format="boolean" />
+        <attr name="eMaxLines" format="integer" />
+        <attr name="eMaxEms" format="integer" />
+
+        <attr name="eLineShow" format="enum">
+            <enum name="none" value="0" />
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="both" value="3" />
+        </attr>
+
+        <attr name="eBothLineWidth" format="dimension" />
+        <attr name="eTopLineWidth" format="dimension" />
+        <attr name="eBottomLineWidth" format="dimension" />
+        <attr name="eLineColor" format="color" />
+
+        <attr name="eLeftTopViewIsClickable" format="boolean" />
+        <attr name="eLeftBottomViewIsClickable" format="boolean" />
+        <attr name="eLeftBottomView2IsClickable" format="boolean" />
+
+        <attr name="eBackgroundDrawableRes" format="reference" />
+
+    </declare-styleable>
+
+</resources>
