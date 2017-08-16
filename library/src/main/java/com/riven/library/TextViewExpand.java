@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 /**
  * 扩展的textView
  */
@@ -767,6 +769,20 @@ public class TextViewExpand extends RelativeLayout {
         return this;
     }
 
+    /**
+     * 设置中介文字颜色
+     * @param textColor
+     * @return
+     */
+    public TextViewExpand setCenterTvColor(int textColor){
+        centerTVColor = textColor;
+        if (centerTV == null) {
+            initLeftText();
+        } else {
+            centerTV.setTextColor(textColor);
+        }
+        return this;
+    }
     /**
      * @param checked 是否选中
      * @return 返回值
